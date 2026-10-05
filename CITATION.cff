@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these data or this code, please cite them as below."
+title: "Data and code for: Family functioning, life satisfaction, and learning engagement among rural left-behind children"
+type: dataset
+authors:
+  - family-names: Xiao
+    given-names: Weiyao
+    affiliation: "School of Education, Central China Normal University; School of Education, Nanchang Normal University"
+    orcid: "https://orcid.org/0009-0007-6061-8004"
+  - family-names: Lan
+    given-names: Ting
+    affiliation: "School of Education, Nanchang Normal University"
+    orcid: "https://orcid.org/0009-0002-6868-9089"
+  - family-names: Xing
+    given-names: Jiayin
+    affiliation: "Department of Child and Adolescent Psychiatry, New York University"
+    orcid: "https://orcid.org/0000-0001-5016-2698"
+version: "1.0"
+license: CC-BY-4.0
+repository-code: "https://github.com/paidaxingidd/Left-behind-children"
+abstract: "De-identified questionnaire data from 535 rural primary-school children in Jiangxi Province, China (surveyed in June 2023), and the Python code for the analyses (multiple imputation, mediation models, bootstrap, CFA and SEM). Data and documentation are licensed CC BY 4.0; code is licensed MIT."
+keywords:
+  - left-behind children
+  - family functioning
+  - life satisfaction
+  - learning engagement
+  - mediation
