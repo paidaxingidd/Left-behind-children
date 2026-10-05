@@ -1,0 +1,33 @@
+variable,description,values,in_files
+id,Participant ID (consecutive; not the original questionnaire number),1–535,all files
+lbc,"Left-behind child (self-report, questionnaire item 4)",1 = yes (n = 422); 0 = no (n = 113),analysis_data
+girl,Gender,1 = girl; 0 = boy,analysis_data
+age,Age in years,8–14,all files
+grade,Grade,3–6,all files
+divorced,Parents divorced (item 10),1 = yes; 0 = no,analysis_data
+grandparent,Primary caregiver is a grandparent (LBC only),1 = grandparent(s); 0 = co-resident mother or father; blank = not LBC or unclassifiable,analysis_data
+both_parents_migrated,Type of migration (LBC only),1 = both parents; 0 = one parent; blank = not LBC,analysis_data
+separation_over_5y,Duration of separation (LBC only),1 = more than 5 years; 0 = 5 years or less; blank = not LBC,analysis_data
+gender,Gender (original code),1 = boy; 2 = girl,entry files
+lbc_self_report,Item 4: are you a left-behind child? (original code),1 = yes; 2 = no,entry files
+separation_over_5y,"Item 5, duration of separation (LBC only; questionnaire options 1–2 merged)",1 = more than 5 years; 0 = 5 years or less; blank = not LBC,entry files
+both_parents_migrated,"Item 6, type of migration (LBC only; father/mother categories merged)",1 = both parents; 0 = one parent; blank = not LBC,entry files
+caregiver_grandparent,"Item 7, primary caregiver (LBC only; father/mother merged)",1 = grandparent(s); 0 = co-resident parent; blank = not LBC or code not on questionnaire (n = 2),entry files
+n_siblings,Item 8: number of children in the family (top-coded),1–5; 5 = five or more,all files
+birth_order,Item 9: birth order (top-coded),1–4; 4 = fourth or later; blank = invalid entry (n = 1),all files
+parents_divorced,Item 10 (original code),1 = yes; 2 = no; 3 = invalid entry (n = 2 in the 2025 file; corrected from the 2024 entry),entry files
+b13_source,Source of the FAD item 13 value,'2024 entry' (n = 311) or 'missing (imputed in analyses)' (n = 224),analysis_data
+b1–b30,"Family Assessment Device, Chinese 30-item version (Li et al., 2013); see docs/measures.md","1–4; items 1–8, 14–19, 26–30 already reverse-scored so that higher = healthier functioning. Entry files: values as entered (may be out of range).",all files
+c1–c5,"Satisfaction With Life Scale (Diener et al., 1985)",1 = strongly disagree … 7 = strongly agree,all files
+f1–f17,"Utrecht Work Engagement Scale–Student, Chinese version (Fang et al., 2008)",1 = never … 7 = always,all files
+fad_total,FAD total score (sum of b1–b30; blank if any item missing),30–120,analysis_data
+affective_interaction,Sum of b1–b8,8–32,analysis_data
+positive_communication,Sum of b9–b13,5–20,analysis_data
+self_centredness_rev,Sum of b14–b19 (reverse-scored; higher = less self-centred),6–24,analysis_data
+problem_solving,Sum of b20–b25,6–24,analysis_data
+family_rules,Sum of b26–b30 (reverse-scored; higher = healthier),5–20,analysis_data
+life_satisfaction,Sum of c1–c5,5–35,analysis_data
+engagement_total,Sum of f1–f17,17–119,analysis_data
+vigour,Sum of f1–f6,6–42,analysis_data
+dedication,Sum of f7–f11,5–35,analysis_data
+absorption,Sum of f12–f17,6–42,analysis_data
